@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { foo } from '../demo/map';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NG-Demo';
+  constructor() {
+    console.log(foo());
+  }
 }

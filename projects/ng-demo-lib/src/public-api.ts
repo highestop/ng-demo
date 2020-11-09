@@ -6,4 +6,4 @@ export * from './lib/ng-demo-lib.service';
 export * from './lib/ng-demo-lib.component';
 export * from './lib/ng-demo-lib.module';
 
-export * from './util/map';
+export * from './demo/map';
